@@ -1,0 +1,34 @@
+controllers:
+    resource: ../src/Controller/
+    type: attribute
+
+get_forum_list:
+    path: /api/forum
+    controller: App\Controller\ForumController::getForumList
+
+get_forum_by_id:
+    path: /api/forum/{id}
+    controller: App\Controller\ForumController::getForumById
+
+create_forum:
+    path: /api/forum
+    controller: App\Controller\ForumController::createForum
+    methods: [POST]
+
+update_forum:
+    path: /api/forum/{id}
+    controller: App\Controller\ForumController::updateForum
+    methods: [PUT]
+
+delete_forum:
+    path: /api/forum/{id}
+    controller: App\Controller\ForumController::deleteForum
+    methods: [DELETE]
+
+forum_index:
+    path: /forum
+    controller: App\Controller\ForumController::index
+
+forum_new:
+    path: /forum/new
+    controller: App\Controller\ForumController::new
