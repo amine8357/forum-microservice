@@ -1,0 +1,5 @@
+65d469,172.21.0.1,GET,http://localhost:5000/,1676030385,,404
+71f777,172.21.0.1,GET,http://localhost:5000/favicon.ico,1676030389,8aee14,404
+8aee14,172.21.0.1,GET,http://localhost:5000/favicon.ico,1676030389,,404
+c153fd,172.21.0.1,GET,http://localhost:5000/api/forum,1676030400,b86492,500
+b86492,172.21.0.1,GET,http://localhost:5000/api/forum,1676030400,,500
